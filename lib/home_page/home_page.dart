@@ -58,7 +58,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
             controller: _textEditingController,
             decoration: const InputDecoration(
               border: InputBorder.none,
-              hintText: "INPUT TEXT",
+              hintText: "INPUT TEXT",//input
             ),
             onChanged: (String text) {
               setState(() {
